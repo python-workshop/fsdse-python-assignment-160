@@ -1,5 +1,6 @@
 # Search a sorted matrix for an item.
-### Constrain
+
+## Constraints
 * Are items in each row sorted?
      * Yes
 *  Are items in each column sorted?

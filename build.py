@@ -1,6 +1,6 @@
-def build(matrix, val):
+def find_val( matrix, val):
     if matrix is None or val is None:
-       return False
+        raise TypeError('matrix and val cannot be None')
     row = 0
     col = len(matrix[0]) - 1
     while row < len(matrix) and col >= 0:
